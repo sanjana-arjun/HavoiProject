@@ -1,0 +1,142 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.verticalline {
+  border-left: 2px solid black;
+  height: 100vh;
+  padding: 5px;
+}
+.navcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.horizontalline {
+  border-top: 1px solid rgb(21, 21, 21);
+}
+
+.listel {
+  background-color: #0000000f;
+  padding: 2px;
+  font-family: roboto;
+}
+.navheader {
+  width: 136px;
+  height: 20px;
+  top: 20px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  color: black;
+}
+
+.navimage {
+  height: 32px;
+  width: 32px;
+  border-radius: 50px;
+}
+.lowerpart {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.individualside {
+  width: 240px;
+  height: 34px;
+  padding: 7px 12px 8px 12px;
+  gap: 10px;
+  opacity: 0px;
+  font-family: roboto;
+}
+
+.list {
+  list-style-type: none;
+  width: 240px;
+  height: 34px;
+  padding: 7px 12px 8px 12px;
+  gap: 10px;
+  font-family: roboto;
+  opacity: 0px;
+}
+
+.list1 {
+  list-style-type: none;
+  width: 240px;
+  height: 34px;
+  padding: 7px 12px 8px 12px;
+  gap: 10px;
+  padding-top: 25px;
+  opacity: 0px;
+  font-family: roboto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.checkboxcon {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-family: roboto;
+}
+
+.tablecontainer {
+  display: flex;
+  flex-direction: column;
+}
+.addnewbutton {
+  width: 90px;
+  height: 32px;
+  color: white;
+  opacity: 0px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.airportcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.horizontalline {
+  width: 350%;
+}
+
+.tablerows {
+  width: 161px;
+  height: 32px;
+  padding: 6px 16px 8px 4px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.tablerowsfirst {
+  width: 1, 001px;
+  height: 32px;
+  padding: 6px 16px 8px 4px;
+  gap: 6px;
+  opacity: 0px;
+}
+
+.editicon {
+  padding-left: 10px;
+}
+
+.Linkel {
+  text-decoration: none;
+  color: black;
+}
+
+.listpadding {
+  padding: 5px;
+}

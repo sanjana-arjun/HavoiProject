@@ -1,0 +1,294 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.verticalline {
+  border-left: 2px solid black;
+  height: 100vh;
+  padding: 5px;
+}
+
+.horizontalline {
+  border-top: 1px solid rgb(21, 21, 21);
+}
+.listel {
+  background-color: #0000000f;
+  padding: 2px;
+  font-family: roboto;
+}
+.navheader {
+  width: 136px;
+  height: 20px;
+  top: 20px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  color: black;
+  margin-left: 15px;
+}
+
+.navimage {
+  height: 32px;
+  width: 32px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.lowerpart {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100vw;
+}
+.sidebar {
+  width: 272px;
+  height: 964px;
+  top: 60px;
+  padding: 20px 16px 16px 16px;
+  gap: 16px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.individualside {
+  width: 240px;
+  height: 34px;
+  padding: 7px 12px 8px 12px;
+  gap: 10px;
+  opacity: 0px;
+  font-family: roboto;
+}
+
+.list {
+  list-style-type: none;
+  width: 240px;
+  height: 34px;
+  padding: 7px 12px 8px 12px;
+  gap: 10px;
+  font-family: roboto;
+  opacity: 0px;
+}
+
+.list1 {
+  list-style-type: none;
+  width: 240px;
+  height: 34px;
+  padding: 7px 12px 8px 12px;
+  gap: 10px;
+  padding-top: 25px;
+  opacity: 0px;
+  font-family: roboto;
+}
+
+.paragraph {
+  width: 320px;
+  height: 12px;
+
+  gap: 0px;
+  opacity: 0px;
+}
+.header {
+  width: 523px;
+  height: 43px;
+  top: 125px;
+  left: 311px;
+  gap: 0px;
+  opacity: 0px;
+}
+.rightside {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
+}
+.unorder {
+  list-style-type: none;
+  display: flex;
+  width: 1, 500px;
+  height: 48px;
+  top: 188px;
+  left: 312px;
+  padding: 0px 48px 0px 0px;
+  gap: 24px;
+  opacity: 0px;
+  font-family: roboto;
+}
+.horizontalhighligh {
+  width: 1000px;
+  height: 2px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #d5d5d5;
+}
+.individuallist {
+  width: 58px;
+  height: 48px;
+  padding: 7px 0px 8px 0px;
+  gap: 7px;
+  opacity: 0px;
+}
+
+.contactdetails {
+  width: 88px;
+  height: 48px;
+  padding: 7px 0px 8px 0px;
+  gap: 7px;
+  opacity: 0px;
+}
+
+.transportdetails {
+  width: 57px;
+  height: 48px;
+  padding: 7px 0px 8px 0px;
+  gap: 7px;
+  opacity: 0px;
+}
+.terminals {
+  display: flex;
+  flex-direction: row;
+}
+.cards {
+  width: 280px;
+  height: 124px;
+  top: 276px;
+  left: 315px;
+  gap: 0px;
+  border-radius: 4px 0px 0px 0px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  width: 104px;
+  height: 104px;
+  gap: 0px;
+  border: 0px 1px 0px 0px;
+  opacity: 0px;
+  border-right: 1px solid #e6e6e6;
+}
+.carddivision {
+  width: 176px;
+  height: 104px;
+  padding: 0px 0px 0px 0px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.terminal1 {
+  width: 128px;
+  height: 18px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 20px;
+}
+
+.desc {
+  width: 128px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+
+.buttonel {
+  width: 200px;
+  height: 60px;
+
+  padding: 15px;
+  gap: 8px;
+  border-radius: 22px;
+  opacity: 0px;
+  border: 2px solid #222222;
+}
+
+.individualservice {
+  display: flex;
+  flex-direction: column;
+  width: 176px;
+  height: 57px;
+  top: 569px;
+  left: 311px;
+  gap: 0px;
+  opacity: 0px;
+  padding: 10px;
+  color: #878484d8;
+  font-family: sans-serif;
+}
+
+.formel {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.uploadimage {
+  background: #e6e6e6;
+  width: 100px;
+  height: 20px;
+  padding: 5px;
+  gap: 8px;
+  border-radius: 30px;
+  opacity: 0px;
+  margin-top: 25px;
+  border: 2px solid #222222;
+}
+
+.savebutton {
+  background-color: black;
+  font-family: roboto;
+  color: white;
+  padding: 5px;
+  margin-left: 200px;
+  border-radius: 25px;
+  width: 70px;
+  height: 25px;
+  margin-top: 25px;
+}
+.modalcontainer {
+  width: 464px;
+  height: 212px;
+  top: 406px;
+  left: 728px;
+  padding: 32px 0px 0px 0px;
+  gap: 46px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #d5d5d5;
+}
+/* styles.css */
+
+/* Terminal container styles */
+.terminal-container {
+  position: relative; /* Ensure proper stacking context for modal and blur effect */
+}
+
+/* Blur background effect */
+.blur-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust opacity as needed */
+  backdrop-filter: blur(8px); /* Apply blur effect */
+}
+
+.listpadding {
+  padding: 5px;
+}
+
+.innerdivision {
+  display: flex;
+}

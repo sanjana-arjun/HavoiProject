@@ -1,30 +1,33 @@
 // Modal.js
-import React, {Component} from 'react'
-import './Modal.css'
+import React, { Component } from 'react';
+import './Modal.css';
+
 class Modal extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       terminalName: '',
       metadata: '',
-    }
+    };
   }
 
-  handleInputChange = event => {
-    const {name, value} = event.target
-    this.setState({[name]: value})
-  }
+  handleInputChange = (event) => {
+    const { name, value } = event.target;
+    this.setState({ [name]: value });
+  };
 
   handleSave = () => {
-    const {terminalName, metadata} = this.state
+    const { terminalName, metadata } = this.state;
 
-    this.props.onSave({terminalName, metadata})
-    this.props.onClose()
-  }
+    // Save terminalName and metadata
+    // ...
+
+    this.props.onClose(); // Close the modal
+  };
 
   render() {
-    const {isOpen, onClose} = this.props
-    if (!isOpen) return null
+    const { isOpen, onClose } = this.props;
+    if (!isOpen) return null;
 
     return (
       <div className="modaloverlay">
@@ -40,8 +43,7 @@ class Modal extends Component {
             />
             <hr />
             <label>Description</label>
-            <input
-              type="textarea"
+            <textarea
               className="inputel"
               name="metadata"
               value={this.state.metadata}
@@ -61,7 +63,8 @@ class Modal extends Component {
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
-export default Modal
+
+export default Modal;

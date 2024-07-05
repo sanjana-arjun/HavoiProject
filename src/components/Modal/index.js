@@ -1,34 +1,25 @@
 // Modal.js
-import React, { Component } from 'react';
-import './Modal.css';
+import React, {Component} from 'react'
+import './Modal.css'
 
 class Modal extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       terminalName: '',
       metadata: '',
-    };
+    }
   }
 
-  handleInputChange = (event) => {
-    const { name, value } = event.target;
-    this.setState({ [name]: value });
-  };
-
-  handleSave = () => {
-    const { terminalName, metadata } = this.state;
-
-    // Save terminalName and metadata
-    // ...
-
-    this.props.onClose(); // Close the modal
-  };
+  handleInputChange = event => {
+    const {name, value} = event.target
+    this.setState({[name]: value})
+  }
 
   render() {
-    const { isOpen, onClose } = this.props;
-    if (!isOpen) return null;
-
+    const {terminalName, metadata} = this.state
+    const {isOpen,onClose}  = this.props
+    if (!isOpen) return null
     return (
       <div className="modaloverlay">
         <div className="modal">
@@ -38,15 +29,16 @@ class Modal extends Component {
               type="text"
               className="inputel"
               name="terminalName"
-              value={this.state.terminalName}
+              value={terminalName}
               onChange={this.handleInputChange}
             />
             <hr />
-            <label>Description</label>
+            <label htmlFor="meta">Description</label>
             <textarea
               className="inputel"
               name="metadata"
-              value={this.state.metadata}
+              id="meta"
+              value={metadata}
               onChange={this.handleInputChange}
             />
             <div className="buttonscontainer">
@@ -63,8 +55,8 @@ class Modal extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Modal;
+export default Modal

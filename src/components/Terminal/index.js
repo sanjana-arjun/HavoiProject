@@ -11,6 +11,9 @@ class Terminal extends Component {
     this.state = {
       isModalOpen: false,
     }
+    this.handleSaveTerminal = this.handleSaveTerminal.bind(this);
+  this.openModal = this.openModal.bind(this);
+  this.closeModal = this.closeModal.bind(this);
   }
 
   handleSaveTerminal = terminalDetails => {
